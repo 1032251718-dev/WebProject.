@@ -1,0 +1,625 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#header{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+
+}
+#fakeheader{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+
+}
+#logo{
+    height: 100%;
+    width: 20%;  
+    
+}
+
+#logo img{
+    width: 90%;
+    height: 100%;
+   object-fit: cover;
+    
+}
+#logo :hover{
+     border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+
+#location{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#location:hover{
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+#location p{
+    color: white;
+    
+    
+}
+#search{
+    background-color: white;
+    height: 50%;
+    width: 40%;
+    margin: 20px;
+    display: flex;
+    
+    
+}
+#All{
+    height:100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(218, 215, 215);
+    
+
+    
+}
+#All:hover{
+    background-color: rgb(161, 157, 157);
+}
+#All p{
+    color: black;
+}
+#se{
+    height: 100%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+#icon{
+    height: 100%;
+    width: 10%;
+    background-color: rgba(241, 174, 31, 0.82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#icon:hover{
+    background-color: rgba(220, 153, 7, 0.82);
+}
+#lang{
+    height: 100%;
+    width: 4%;
+    color: white;
+   
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+#lang:hover{
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+#lang img{
+    width: 55%;
+    height: 12px;
+    object-fit: cover;
+    margin: 2px;
+}
+#text{
+    height: 100%;
+    width: 10%;
+    color: white;
+      
+    
+}
+#text p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#text:hover{
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+#text texter{
+    font-size: large;
+}
+#cart{
+    height: 100%;
+    width: 100%;
+   display: flex;
+   margin-left: 10px;
+
+}
+#cart:hover{
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+.ri-shopping-cart-line{
+    font-size: 45px;
+    color: white;
+    margin-top: 20px;
+
+}
+#cart p{
+    font-size:large;
+    margin-top: 50px;
+    color: white;
+}
+#strip{
+    width: 100%;
+    height:6%;
+    background-color:rgb(37, 37, 37);
+    display: flex;
+}
+
+#all{
+    height:100%;
+    width: 15%;
+     
+}
+#all p{
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 20px;
+  color:white;
+}
+#all:hover{
+     
+    border-width: 1px;
+    border-style: solid;
+    border-color: white
+}
+
+.ri-expand-up-down-fill{
+    font-size: 20px;
+    color: white;
+}
+.text{
+    height:100%;
+    width: 15%;
+    color: white;  
+    
+     
+}
+.text p{
+   height: 100%;
+   width: 100%;
+   color:white;
+   
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.text:hover{
+   
+    border-width: 1px;
+    border-style: solid;
+    border-color: white
+}
+#content{
+    height: 90%;
+    width: 100%;
+    background-color:black;
+}
+#box1{
+    width: 100%;
+    height: 50%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    height: 80%;
+    width: 25%;
+    margin: 10px;
+    margin-left: 50px;
+    
+}
+#img img{
+    width: 100%;
+    height: 100%;
+}
+#line{
+    color: white;
+    height: 90%;
+    width:30% ;
+   
+    
+   
+}
+#con{
+    height: 80%;
+    width: 100%; 
+    align-items: baseline;
+    
+}
+#con:hover{
+    text-decoration: underline;
+}
+#con p3{
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: 500;
+    background-color: black;
+}
+#con p1{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-size: 50px;
+}
+#con p2{
+    font-size:20px;
+    font-weight: bold;
+}
+#pay{
+    width:85%;
+    height:20%;
+    background-color: white;
+    display: flex;
+    color: black;
+}
+
+#pay img{
+    height: 95%;
+    width: 15%;
+    object-fit: contain;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+#pay p{
+    margin: 5px;
+
+}
+#box2{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+}
+#card1{
+    height: 87%;
+    width: 30%;
+    background-color:white;
+    margin-left: 40px;
+}
+#card2{
+    height: 87%;
+    width: 30%;
+    background-color: white;
+    margin-left: 40px;
+}
+#card3{
+    height: 87%;
+    width: 30%;
+    background-color:white;
+   margin-left: 40px;
+}
+#card1 img{
+
+    height: 75%;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 10px;
+}
+#card1 p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center
+    ;
+}
+#card2 img{
+    height: 75%;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 10px;
+
+}
+#card2 p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+#card3 img{
+    height: 75%;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 10px;
+}
+#card3 p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 20px;
+    
+}
+#div1{
+    width: 96%;
+    height: 40%;
+   background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 37px;
+    
+}
+#pic1{
+    width: 40%;
+    height: 100%;
+    background-color:
+
+}
+#pic2{
+    width: 40%;
+    height: 100%;
+   
+   
+     
+}
+
+#pic4{
+    width: 40%;
+    height: 100%;
+     
+   
+     
+}
+#pic5{
+    width: 30%;
+    height: 100%;
+
+}
+#pic1 img{
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+}
+#pic2 img{
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#pic4 img{
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+}
+#pic5 img{
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+}
+#div1 p{
+    font-weight: bold;
+    font-size: 40px;
+}
+#pic1 p{
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+   
+}
+#pic2 p{
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+   
+}
+#pic4 p{
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+   
+}
+#pic5 p{
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+   
+}
+#div2{
+    width: 96%;
+    height: 55%;
+    background-color: black;
+    margin-left: 37px;
+    margin-top: 10px;
+}
+#strip1{
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    text-align: center;
+   
+}
+#strip1 p{
+    font-weight: bold;
+    font-size: 30px;
+}
+#Sign{
+    height: 35%;
+    width: 15%;
+    background-color:  rgba(241, 174, 31, 0.82);
+    text-align: center;
+    margin-left: 43%;
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    
+
+}
+#Sign:hover{
+    background-color:  rgba(226, 158, 10, 0.82);
+}
+#strip2{
+    height: 15%;
+    width: 100%;
+    background-color:rgb(62, 62, 67);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+#strip3{
+    display: flex;
+    width: 100%;
+    height: 55%;
+   background-color:rgb(53, 53, 80);
+   color: white;
+}
+#go{
+    width: 25%;
+    height: 100%;
+   margin-top: 10px;
+   text-align: start;
+   margin-left: 10px;
+
+}
+#go:hover{
+    text-decoration: underline;
+}
+#connect{
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+    text-align: start;
+}
+#connect:hover{
+    text-decoration: underline;
+    
+}
+#make{
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+    text-align: start;
+}
+#make:hover{
+    text-decoration: underline;
+
+}
+#let{
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+    text-align: start;
+}
+#let:hover{
+    text-decoration: underline;
+}
+#strip4{
+    width: 100%;
+    height: 11%;
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#ama{
+    height:100%;
+    width: 5%;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#ama img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   
+}
+
+#eng{
+    height: 100%;
+    width: 10%;
+    
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 1px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    
+}
+.ri-global-line{
+    size: 20px;
+    color: white;
+    margin: 10px;
+}
+.ri-expand-up-down-fill{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#in{
+    height: 100%;
+    width: 10%;
+   
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 1px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+#in  img{
+    height: 95%;
+    width: 15%;
+    object-fit: contain;
+   margin-left: 5px;
+   margin-right: 5px;
+}
